@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.musicapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/music_bg"
+            android:id="@+id/music_happy">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Happy"
+                android:textSize="22sp"
+                android:textColor="#ccc"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/music_rock">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rock"
+                android:textSize="22sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/music_romance">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Romance"
+                android:textSize="22sp"
+                android:textColor="#FF7043"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/music_blue">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blue"
+                android:textSize="22sp"
+                android:textColor="#ccc"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/music_jazz">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jazz"
+                android:textSize="22sp"
+                android:textColor="#FFA726"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/music_pop">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pop"
+                android:textSize="22sp"
+                android:textColor="#ccc"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/music_indy">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indy"
+                android:textSize="22sp"
+                android:textColor="#ccc"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/music_hit">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Just Hit"
+                android:textSize="22sp"
+                android:textColor="#ccc"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/music_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Happy"
+                android:textSize="22sp"
+                android:textColor="#ccc"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/music_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Happy"
+                android:textSize="22sp"
+                android:textColor="#ccc"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"/>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
